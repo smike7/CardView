@@ -13,29 +13,6 @@ body {
   background: #1f1f47;
 }
 
-/* Circle Shapes */
-/* 
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(#f00, #f0f);
-  clip-path: circle(30% at right 70%);
-}
-body::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(#2196f3, #e91e63);
-  clip-path: circle(20% at 10% 10%);
-}
-*/
 /* Cards container makes items center*/
 .container {
   position: relative;
@@ -75,7 +52,6 @@ body::after {
   border-radius: 0px 40px 40px;
   background: linear-gradient(rgb(255, 126, 157) 0%, rgb(255, 115, 122) 100%);
   transform: skewY(8deg);
-  /* maybe delete? */
   transform-origin: left top;
 }
 
@@ -99,20 +75,6 @@ body::after {
   color: #ffff;
   font-weight: 300;
 }
-
-/* Read more
-.container .card .content-of-card a {
-  position: relative;
-  display: inline-block;
-  padding: 8px 20px;
-  margin-top: 15px;
-  background: #fff;
-  color: #000;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 500;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
-/* } */
 
 .bottom-card-container ul {
   padding-top: 30px;
