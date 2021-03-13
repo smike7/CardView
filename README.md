@@ -1,4 +1,4 @@
 
 ## Screenshot
 
-![CardView](assets/CardView.gif)
+![CardView](https://raw.githubusercontent.com/smike7/CardView/master/assets/cardView.gif)
