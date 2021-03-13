@@ -1,4 +1,4 @@
 
 ## Screenshot
 
-![Card View](assets/CardView.gif)
+![Card View](assets\CardView.gif)
