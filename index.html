@@ -18,24 +18,34 @@
       ارجع لهذا الرابط عشان تعرف كيف تستخدم الأنيماشن: 
       https://micku7zu.github.io/vanilla-tilt.js/
     -->
+    <img class="bg-image"src="assets\Background.png" alt="bgImage">
+    
     <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.2">
       <div class="content-of-card">    
-        <form action="" class="form">
+        <form class="form" id="myForm" autocomplete="off">
           <!-- الخانة اللي يكتب فيها المستخدم اسم المدينة -->
-          <input type="text" placeholder="City">
+          <input id="city-input" type="search" placeholder="City">
           <!--  زر البحث  -->
-          <input type="submit" value="OK">
+          <input class="city-button" type="submit" value="OK">
         </form>
-        <h3>Riyadh</h3>
-        <p>Mostly Clear</p>
-        <h2>20 &#176</h2>
+        <h3 id="city">Riyadh</h3>
+        <p id="weather">Cloudy</p> 
+        <h2 id="current">20 &#176</h2>
         <div class="bottom-card-container">
-          <ul>
-            <!--  بيانات الطقس -->
-            <li>Wind 20 m/s</li>
-            <li>Humidity 31%</li>
-            <li>Pressure 1020 hPa </li>
-          </ul>
+          <div class="flexcontainer">
+            <div>
+              <ul>
+                <!--  بيانات الطقس -->
+                <li id="wind">Wind 20 m/s</li>
+                <li id="humidity">Humidity 31%</li>
+                <li id="pressure">Pressure 1020 hPa </li>
+              </ul>
+            </div>
+            <div class="image-counter">
+              <img id="weather-image" src="assets\cloudy.png" alt="Weather image">
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -45,5 +55,6 @@
 
   </div>
   <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
